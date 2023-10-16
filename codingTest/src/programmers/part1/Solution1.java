@@ -15,9 +15,8 @@ public class Solution1 {
 			String babb = "";
 			for (char c : b.toCharArray()) {
 				babb += c;
-				System.out.println(babb);
-				for (String s : string) {
-					if (babb.equals(s)) {
+				for (String s : string) {	
+					if (babb.equals(s)) {// 가능한 옹알이가 있을 경우 지우기
 						babb = "";
 					}
 				}
